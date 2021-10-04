@@ -1,7 +1,13 @@
-def subtract(n1, n2):
-    print(n1 - n2)
-    print(n1 * n2)
+print("Welcome to Ngozi's Team Name Generator")
 
-subtract(8, 2)
+city_name = input("What is the name of your city?")
+print(city_name)
+
+pet_name = input("What is the name of your pet?")
+
+print(f"Suggested name for your team is {city_name} {pet_name}")
+
+
+
 
 
